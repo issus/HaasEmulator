@@ -138,7 +138,7 @@ namespace HaasEmulator
                     break;
             }
 
-            e.Reply($"{reply}\r");
+            e.Reply($"{reply}\r\n");
             AppendMessage(reply);
         }
 
